@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 9; i++) {
-            System.out.println("Hello, world");
+        Cat cat = new Cat("Барсик", 5);
+        for (int i = 0; i < cat.age; i++) {
+            cat.meow();
         }
     }
 }
