@@ -8,7 +8,6 @@ public class Cat {
     }
 
     public void meow() {
-        System.out.println("Kot-kot-kot");
         System.out.println("Я " + name + " мне " + age + " лет. Мяу!");
     }
 }
